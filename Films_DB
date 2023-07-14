@@ -1,0 +1,14 @@
+create table artist (
+  artId INTEGER PRIMARY KEY,
+  artName TEXT NOT NULL,
+  artGender TEXT NOT NULL
+);
+
+desc artist;
+
+INSERT INTO artist VALUES (1, 'SRK', 'M');
+INSERT INTO artist VALUES (2, 'Ali', 'F');
+INSERT INTO artist VALUES (3, 'Yash', 'M');
+
+
+SELECT * FROM artist;
